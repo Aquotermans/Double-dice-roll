@@ -11,7 +11,7 @@ d1 = 0
 d2 = 0
 dt = 0
 call = 0
-rolls = 100
+rolls = 10000
 
 result = []
 index = []
@@ -20,7 +20,7 @@ for i in range (11):
     result.append(0)
     index.append(i+2)
 
-for i in range (100000):
+for i in range (rolls):
     d1 = random.randint(1,7)
 #    print("d1 = ",d1)
     d2 = random.randint(1,7)
